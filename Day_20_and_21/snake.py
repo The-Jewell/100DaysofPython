@@ -14,11 +14,16 @@ class Snake:
         self.create_snake()
         self.head = self.snake_squares[0]
 
-
     def create_snake(self):
         for position in STARTING_POSITIONS:
             self.add_square(position)
 
+    def reset_snake(self):
+        for square in self.snake_squares:
+            square.goto(2000,2000)
+        self.snake_squares.clear()
+        self.create_snake()
+        self.head = self.snake_squares[0]
 
     def move_snake(self):
         for square_num in range(len(self.snake_squares) - 1, 0, -1):
