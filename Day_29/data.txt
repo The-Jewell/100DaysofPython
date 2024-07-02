@@ -1,0 +1,3 @@
+
+Amazon | example@email.com | test 
+TikTok | example@email.com | testpass 
