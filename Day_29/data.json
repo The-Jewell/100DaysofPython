@@ -1,0 +1,10 @@
+{
+    "TikTok": {
+        "email": "example@email.com",
+        "password": "tiktokpass"
+    },
+    "Facebook": {
+        "email": "example@email.com",
+        "password": "fbpass"
+    }
+}
